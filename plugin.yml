@@ -1,0 +1,17 @@
+name: MobNamer
+version: 1.0
+author: jamietech
+website: http://jamiete.ch
+main: ch.jamiete.npcnamer.NPCNamer
+
+commands:
+  npcnamer:
+    usage: /<command> <name>
+    alias: ['npcname']
+    description: Sets the name on a name tag.
+    permission: npcnamer.use
+    
+permissions:
+  npcnamer.use:
+    description: Allows users to use NPCNamer
+    default: OP
